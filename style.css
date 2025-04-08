@@ -1,0 +1,435 @@
+/* Ini bagian beranda */
+body {
+    font-family: 'Times New Roman', serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f3f3; 
+    color: #000000; 
+    line-height: 1.6;
+    display: flex; 
+    flex-direction: column;
+    min-height: 100vh; 
+}
+
+/* Navbar */
+.navbar {
+    background-color: #ffc0cb; 
+    text-align: center;
+    padding: 10px 0;
+}
+
+.navbar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: inline-flex;
+    gap: 20px; /* Jarak antar menu navbar */
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    font-family: 'Times New Roman', serif;
+    font-size: 18px;
+    color: #333; 
+    transition: color 0.3s ease;
+}
+
+.navbar ul li a:hover {
+    color: #000000; 
+}
+
+/* Halaman Beranda */
+.home {
+    display: flex; 
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px;
+    flex-grow: 1; 
+}
+
+.text-left {
+    max-width: 50%;
+    text-align: left; /* Semua elemen teks rata kiri */
+}
+
+.halo {
+    font-family: 'Great Vibes', cursive; 
+    font-size: 72px; 
+    color: #000; 
+    margin: 0;
+}
+
+.profesi {
+    font-size: 24px; 
+    color: #000000; 
+    margin-top: 10px; 
+    margin-bottom: 20px; 
+}
+
+.image-left .img-home {
+    width: 400px; 
+    height: auto;
+    margin-left: 0; 
+    display: block;
+}
+
+/* Tombol "More About Me" */
+.more-button .button {
+    display: inline-block;
+    background-color: #d3d3d3; 
+    padding: 10px 20px;
+    border-radius: 25px; 
+    text-decoration: none;
+    color: #000; 
+    font-size: 18px; 
+    margin-top: 20px; 
+    text-align: left; 
+    transition: background-color 0.3s ease;
+}
+
+.more-button .button:hover {
+    background-color: #bbb; 
+}
+
+/* Footer */
+footer {
+    background-color: #ffc0cb; 
+    text-align: center;
+    padding: 10px;
+    margin-top: auto; 
+    color: #333; 
+    font-size: 14px;
+}
+
+/* Ini bagian more about me */
+body {
+    font-family: 'Times New Roman', serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f3f3; 
+    color: #333; 
+    line-height: 1.6;
+    text-align: center; 
+}
+
+/* Navbar */
+.navbar {
+    background-color: #ffc0cb; 
+    text-align: center;
+    padding: 10px 0;
+}
+
+.navbar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: inline-flex;
+    gap: 20px;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    font-family: 'Times New Roman', serif;
+    font-size: 18px;
+    color: #333; 
+    transition: color 0.3s ease;
+}
+
+.navbar ul li a:hover {
+    color: #ff69b4; 
+}
+
+/* About Me Section */
+.about-me {
+    padding: 50px;
+}
+
+.image-center .img-aboutme {
+    width: 250px; 
+    height: 250px;
+    border-radius: 50%; 
+    margin: 0 auto; 
+    display: block;
+}
+
+.name-center h1 {
+    font-family: 'Great Vibes', cursive; 
+    font-size: 48px; 
+    color: #333; 
+    margin: 20px 0;
+}
+
+.text-center p {
+    font-family: 'Times New Roman', serif;
+    font-size: 18px;
+    line-height: 1.8;
+    color: #555; 
+    margin: 0 auto;
+    max-width: 70%; 
+}
+
+/* Tombol "Kembali ke Home" */
+.back-button .button {
+    display: inline-block;
+    background-color: #d3d3d3; 
+    padding: 10px 20px;
+    border-radius: 25px; 
+    text-decoration: none;
+    color: #000; 
+    font-size: 18px; 
+    margin-top: 20px; 
+    transition: background-color 0.3s ease;
+}
+
+.back-button .button:hover {
+    background-color: #bbb; 
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #ffc0cb; 
+    color: #333; 
+    font-size: 14px;
+}
+
+/* ini bagian Achievement */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fff5f7;
+    color: #333;
+  }
+  
+  h1 {
+    font-family: 'Great Vibes', cursive;
+    font-size: 48px;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 20px;
+  }
+  
+  .achievement-section {
+    padding: 20px;
+    margin-bottom: 50px;
+    text-align: center;
+  }
+  
+  .achievement-section h2 {
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 30px;
+  }
+  
+  .achievement-item {
+    display: inline-block;
+    width: 45%;
+    margin: 15px;
+    vertical-align: top;
+    text-align: center;
+  }
+  
+  .achievement-item img {
+    width: 100%;
+    height: auto;
+    max-height: 250px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  }
+  
+  .achievement-item p {
+    margin-top: 10px;
+    font-size: 16px;
+    color: #444;
+  }
+  
+  .project-item img {
+    max-width: 300px;
+    max-height: 420px;
+    object-fit: cover;
+  }
+  
+/* Tombol "Back to Home" */
+ .back-button .button {
+    display: inline-block;
+    background-color: #d3d3d3;
+    padding: 10px 20px;
+    border-radius: 25px;
+    text-decoration: none;
+    color: #000;
+    font-size: 18px;
+    margin: 20px auto;
+    transition: background-color 0.3s ease;
+  }
+  
+  .back-button .button:hover {
+    background-color: #bbb;
+  }
+  
+  /* Footer */
+  footer {
+    text-align: center;
+    padding: 15px;
+    background-color: #ffc0cb;
+    color: #333;
+    font-size: 14px;
+  }
+
+/* Ini bagian contact */
+body {
+    font-family: 'Times New Roman', serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f3f3; 
+    color: #333; 
+    line-height: 1.6;
+}
+
+/* Navbar */
+.navbar {
+    background-color: #ffc0cb; 
+    text-align: center;
+    padding: 10px 0;
+}
+
+.navbar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: inline-flex;
+    gap: 20px; 
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #333; 
+    transition: color 0.3s ease;
+}
+
+.navbar ul li a:hover {
+    color: #000; 
+}
+
+/* Form Kontak */
+.form-section {
+    text-align: center;
+    padding: 20px 50px;
+}
+
+.contact-title {
+    font-family: 'Great Vibes', cursive; 
+    font-size: 48px;
+    margin-bottom: 20px;
+    color: #333; 
+}
+
+.form-desc {
+    font-size: 16px;
+    color: #555; 
+    margin-bottom: 20px;
+}
+
+.contact-form {
+    max-width: 600px;
+    margin: 0 auto; 
+    text-align: left;
+}
+
+.contact-form label {
+    font-size: 16px;
+    margin-bottom: 5px;
+    display: block;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+    color: #333;
+}
+
+.send-button {
+    background-color: #007bff; 
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    display: block;
+    margin: 0 auto;
+}
+
+.send-button:hover {
+    background-color: #0056b3; 
+}
+
+/* Informasi Kontak */
+.contact-section {
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
+    margin-top: 30px;
+}
+
+.contact-row {
+    display: flex; 
+    justify-content: center; 
+    gap: 50px; 
+    width: 80%; 
+    max-width: 600px; 
+    margin: 0 auto; 
+    margin-bottom: 20px; 
+}
+
+.contact-item {
+    display: flex; 
+    align-items: center; 
+    text-align: left;
+    width: 48%; 
+}
+
+.contact-logo {
+    width: 30px; 
+    height: auto;
+    margin-right: 10px; 
+}
+
+.contact-item p {
+    font-size: 16px; 
+    color: #555; 
+}
+
+/* Tombol "Back to Home" */
+.back-button .button {
+    display: inline-block;
+    background-color: #d3d3d3; 
+    padding: 10px 20px;
+    border-radius: 25px; 
+    text-decoration: none;
+    color: #000; 
+    font-size: 18px;
+    margin-top: 20px; 
+    margin-bottom: 40px; 
+    transition: background-color 0.3s ease;
+}
+
+.back-button .button:hover {
+    background-color: #bbb; 
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #ffc0cb; 
+    color: #333; 
+    font-size: 14px;
+}
